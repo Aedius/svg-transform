@@ -1,0 +1,11 @@
+[package]
+name = "svg-transform"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+svg = "0.10.0"
+
+[dependencies.clap]
+version = "3.0.10"
+features = ["derive"]
